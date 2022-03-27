@@ -226,3 +226,9 @@
         </script>
     </body>
 </html>
+<script>
+                if(!hasClicked) hasClicked = true;
+                overlay.hidden = true;
+                video.play();
+                videoClick();
+</script>
